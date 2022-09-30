@@ -13,7 +13,7 @@ class Payroll_Deduction:
     def get_date(self):
         return self.__date
     
-    def get_chargeamnt(self):
+    def get_charge_amount(self):
         return self.__charge_amount
 
     def get_idnumber(self):

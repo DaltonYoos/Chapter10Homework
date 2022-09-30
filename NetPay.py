@@ -17,7 +17,7 @@ def main():
 
     for transactions in employee_transactions: 
             if pdc.Payroll_Deduction.get_idnumber(transactions) == employee_info.get_id():
-                net_income = net_income - pdc.Payroll_Deduction.get_chargeamnt(transactions)
+                net_income = net_income - pdc.Payroll_Deduction.get_charge_amount(transactions)
 
 
     print('*** Employee Pay ***')
